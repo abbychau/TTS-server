@@ -1,0 +1,5 @@
+"Trees are ubiquitous data structures. Various visualizations of trees were proposed to help people understand different aspects of trees. This article focuses on the classical node-link diagrams.
+
+A good tree drawing should be aesthetically pleasing while using as little space as possible. In 1979, Wetherell and Shannon [1] formalized aesthetic rules for tidy trees and presented the first O(n) algorithm to solve it. In 1981, Reingold and Tilford [2] extended the aesthetic rules to make the drawings more aesthetically pleasing and compact. However, both of them would violate the aesthetic rules when extended to m-ary trees. In 1990, Walker [3] solved this problem with O(n^2) time complexity. Buchheim [4] improved Walker’s work to run in O(n) in 2002. In 2014, Ploeg [5] presented the first O(n) algorithm to produce tidy non-layered drawings of trees.
+
+This article introduces the layout algorithm of non-layered tidy trees [5] and presents a fast relayout algorithm. Engineers can use it to build fast tree editor tools like mindmaps."
